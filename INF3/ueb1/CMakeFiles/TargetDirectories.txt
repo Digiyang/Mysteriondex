@@ -1,3 +1,0 @@
-/home/digiyang/Desktop/inf3/ueb1/CMakeFiles/rebuild_cache.dir
-/home/digiyang/Desktop/inf3/ueb1/CMakeFiles/ueb1.dir
-/home/digiyang/Desktop/inf3/ueb1/CMakeFiles/edit_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++14 -g  -rdynamic CMakeFiles/ueb1.dir/main.cpp.o CMakeFiles/ueb1.dir/CDate.cpp.o  -o ueb1 

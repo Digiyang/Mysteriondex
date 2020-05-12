@@ -1,3 +1,0 @@
-/home/ike/Desktop/Informatik/Inf 3/inf3/ueb2/CMakeFiles/rebuild_cache.dir
-/home/ike/Desktop/Informatik/Inf 3/inf3/ueb2/CMakeFiles/ueb2.dir
-/home/ike/Desktop/Informatik/Inf 3/inf3/ueb2/CMakeFiles/edit_cache.dir
