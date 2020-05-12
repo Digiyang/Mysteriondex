@@ -4,6 +4,8 @@
 */
 #include<stdio.h>
 #include "processmodel.h"
+#include"process.h"
+#include"queue.h"
 
 int main (int argc, char** argv) {
     

@@ -6,6 +6,7 @@ CFLAGS += $(WARNFLAGS)
 PROG = main
 QUEUEDEMO = queuedemo
 ERROR = queuedemoerror
+PROT = prototype_process
 
 
 prototype_process: prototype_process.c
@@ -26,17 +27,6 @@ else
 CFLAGS += $(OPTFLAGS)
 endif
 
-clean0:
-	rm $(OBJ) $(PROG) -f
+cleanall:
+	rm $(OBJ) $(PROG) $(QUEUEDEMO) $(ERROR) $(PROT) -f
 
-clean1:
-	rm $(OBJ) $(QUEUEDEMO) -f
-
-clean2:
-	rm $(OBJ) $(ERROR) -f
-
-run:
-	./$(PROG)
-
-
-all: clean $(PROG) run
