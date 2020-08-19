@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "awesome2/awesome.h"
+#include "awesome3/awesome.h"
+int main()
+{
+
+	#ifdef DEBUG
+	puts("starting");
+	#endif
+
+	#if __awesome_ver <= 2
+	something_awesome(42);
+	#else				// _awesome_ver 3
+	do_something_awesome(42);
+	#endif
+
+	#if __awesome_ver < 2
+	#error Version ist nicht aktuell!
+	#else
+	hello_awesome("User");
+	#endif
+
+
+	#ifdef DEBUG
+        puts("done");
+        #endif
+
+
+	return EXIT_SUCCESS;
+}

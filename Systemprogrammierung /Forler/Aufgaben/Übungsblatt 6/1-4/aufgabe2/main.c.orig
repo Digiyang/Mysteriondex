@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include "macros.h"
+
+int main()
+{
+
+	double f ; 
+	double a,b,c,d ;
+	a = 2 ;
+	b = 4 ;
+	f = _2_PI ;
+	c = MULT(a+b, a+b);
+	d = MULT2(a+b, a+b);
+	
+	 printf("---------------------------------Aufgabe 2.a---------------------------------------\n");
+
+	printf(" Makron.1 (3.14 + 3.14) ist : %.2lf \n",f);
+
+        printf("---------------------------------Aufgabe 2.b---------------------------------------\n");
+
+	printf("wir führen operationen und schauen unsere werte wider\n");
+	
+	 printf("mit Makron (a * b) 	- Werte a = 2 , b = 4\n");
+	
+        printf("a+b*a+b 	= %lf ,	 	 MULT(a * b ) c : %lf \n",a+b*a+b ,c);
+         printf("mit Makron (a * b)     - Werte a = 2 , b = 4\n");
+	printf("(a+b)*(a+b):	= %lf ,	 	 MULT2(a * b ) d : %lf \n",(a+b)*(a+b),d);
+
+        printf("---------------------------------Aufgabe 2.c---------------------------------------\n");
+
+	return 0 ;
+}

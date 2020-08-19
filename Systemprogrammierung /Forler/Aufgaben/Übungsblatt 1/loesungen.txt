@@ -1,0 +1,21 @@
+Wieviel Kerne hat ihre CPU ? cat /proc/cpuinfo
+Unterstützt die CPU sse4 und avx2 ? cat /proc/cpuinfo | grep -e sse4 -e avx2
+welche Kernelversion ? uname -r
+über wieviel RAM verfügt ihr Rechner? free
+IP Adresse ? ifconfig oder ip addr show
+Hotname? hostname
+
+
+---teil 2---
+some tipps for 2
+
+
+35 mit locate
+31 ps
+32 kill -SIGTERM ....
+34 df -h
+35 free
+37 echo $(date) > foobar/date
+40 mkdir -p a/b/c/d/e/f 
+44 rmdir -p a/b/c/d/e/f
+45 cat passwd | grep /bin/bash

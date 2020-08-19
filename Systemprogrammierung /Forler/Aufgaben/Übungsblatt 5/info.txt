@@ -1,0 +1,4 @@
+man getpwuid
+
+
+which cc -> für compilier
