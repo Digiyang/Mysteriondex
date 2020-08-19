@@ -1,0 +1,16 @@
+p {
+    width: 500px;
+    height: 100px;
+}
+
+.color {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}

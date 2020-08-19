@@ -1,0 +1,1 @@
+Entwickeln Sie Routinen zur Datenein- und ausgabe über die serielle Schnittstelle (UART).

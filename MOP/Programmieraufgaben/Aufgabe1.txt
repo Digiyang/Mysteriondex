@@ -1,0 +1,1 @@
+Bei kurzer Betätigung einer Taste (Drücken/Loslassen) soll der Zustand einer LED geändert werden (Entprellung).

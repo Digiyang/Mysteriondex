@@ -1,0 +1,3 @@
+(Zusatzaufgabe)
+Entwickeln Sie eine Routine, die die beiden in zwei Registern übergebenen Werte als zweistellige Hexadezimalzahl auf dem 7-Segment-Array ausgibt.
+ 

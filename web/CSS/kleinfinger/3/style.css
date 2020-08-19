@@ -1,0 +1,37 @@
+.container {
+    color: whitesmoke;
+    background-color: yellowgreen;
+    text-align: center;
+    border: 5px outset black;
+}
+
+p:nth-child(1) {
+    background-color: red;
+}
+p:nth-child(2) {
+    background-color: blueviolet;
+}
+p:nth-child(3) {
+    background-color: black;
+}
+p:nth-child(4) {
+    background-color: purple;
+}
+p:nth-child(5) {
+    background-color: orangered;
+}
+p:nth-child(6) {
+    background-color: blue;
+}
+p:nth-child(7) {
+    background-color: orange;
+}
+p:nth-child(8) {
+    background-color: chocolate;
+}
+p:nth-child(9) {
+    background-color: green;
+}
+p:nth-child(10) {
+    background-color: grey;
+}

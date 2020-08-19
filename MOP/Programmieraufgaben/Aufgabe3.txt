@@ -1,0 +1,1 @@
+Entwickeln Sie ein Programm, das durch geeignete Ansteuerung des Beepers einen gleichbleibenden Ton erzeugt (Timer-Interrupt-Betrieb). Durch Eingabe über die serielle Schnittstelle (UART) soll die Tonhöhe verändert werden können. 
