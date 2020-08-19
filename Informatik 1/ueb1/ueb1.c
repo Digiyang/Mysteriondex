@@ -6,7 +6,7 @@ int main()
 	double Summe , Mehrwert,Brutto;
 
 	printf("\nDieses Programm berechnet aus 3 Werten\n");
-	printf("Die Nettoosumme,dazu die Mehrwertsteuer ");
+	printf("Die Nettosumme,dazu die Mehrwertsteuer ");
 	printf("und schliesslich den Bruttobetrag.\n");
 	printf("Die drei Werte: %.2f, %.2f, %.2f\n",Wert1,Wert2,Wert3);
 
