@@ -33,7 +33,7 @@ try:
         data_string1 = data_string.split('\\n')[3]
         data_string2 = data_string1.split('\\r')[0]
         print('Aktuelle Zeit auf dem Server: %s'%(data_string2))
-        yy = data_string2.split('-')[0] #TAG
+        yy = data_string2.split('-')[0] #YER
         mm = data_string2.split('-')[1] #MONAT
         dd_swap = data_string2.split('-')[2]
         dd = dd_swap.split('T')[0]
